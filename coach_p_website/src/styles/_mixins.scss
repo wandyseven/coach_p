@@ -1,0 +1,21 @@
+// _mixins.scss
+@use"sass:map" as map;
+@use './_variables' as vars;
+
+@mixin respond-up-to($size){
+    @media (min-width: map.get(vars.$breakpoints, $size)){
+        @content;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

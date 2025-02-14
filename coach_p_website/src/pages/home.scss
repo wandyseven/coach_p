@@ -1,0 +1,22 @@
+@use '../styles/_mixins' as mixins;
+@use '../styles/_variables';
+
+.bloc-b,
+.bloc-t{
+    background-color: white;
+    color: black;
+}
+
+.bloc-t {
+    height: 10rem;
+    @include mixins.respond-up-to('lg'){
+
+        height: 25rem;
+    }
+}
+
+.bloc-b {
+    height: 20rem;
+    
+}
+

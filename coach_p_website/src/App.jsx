@@ -18,6 +18,7 @@ import UserConnexion from './pages/user/UserConnexion';
 import CoachConnexion from './pages/coach/CoachConnexion';
 import UserDashboard from './pages/user/UserDashboard';
 import CoachDashboard from './pages/coach/CoachDashboard';
+import NotFound from './pages/NotFound';
 
 
 function App() {
@@ -45,8 +46,11 @@ function App() {
           <Route path='coach' element={<CoachDashboard/>} />
         </Route>
 
+      <Route path="*" element={<NotFound />} />
 
       </Route>
+    
+
     </Routes>
    </BrowserRouter>
   )

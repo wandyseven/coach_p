@@ -1,9 +1,18 @@
-import React from 'react'
-import '../styles/main.scss'
+import React from 'react';
+import './home.scss'
+
 
 const Home = () => {
   return (
-    <div><h1>Hello</h1></div>
+    <div class="container ">
+      <div class="row  gap-3">
+        <div class=" rounded bloc-t">Column 7 </div>
+        <div class=" rounded bloc-t">Column 4</div>
+        <div class=" rounded bloc-b">Column 7 </div>
+        <div class=" rounded bloc-b">Column 4</div>
+       
+      </div>
+    </div>
   )
 }
 

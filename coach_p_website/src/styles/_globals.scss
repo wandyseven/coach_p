@@ -1,0 +1,30 @@
+
+
+body {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+
+};
+
+
+
+.navbar-nav a {
+    color: #888888; 
+    
+    &:hover {
+        color: white;
+    }
+}
+
+
+#root  {
+   padding: 0%;
+    width: 100% !important;
+    margin: 0%;
+    
+}
+
+
